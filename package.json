@@ -23,7 +23,9 @@
     "sequence"
   ],
   "dependencies": {
-    "inherits": "^2.0.1"
+    "inherits": "^2.0.1",
+    "stream-browserify": "^3.0.0",
+    "tty-browserify": "0.0.1"
   },
   "author": {
     "name": "James Halliday",
