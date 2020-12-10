@@ -1,6 +1,6 @@
-var tty = require('tty');
+var tty = require('tty-browserify');
 var encode = require('./lib/encode');
-var Stream = require('stream').Stream;
+var Stream = require('stream-browserify').Stream;
 var inherits = require('inherits')
 
 inherits(Charm, Stream)
